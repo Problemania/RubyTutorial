@@ -1,0 +1,50 @@
+# use glob syntax
+syntax: glob
+
+# specific files
+
+# back up files
+.DS_Store
+._*
+*~
+.nfs.*
+#*#
+*.bak
+*.old
+
+# logs
+derby.log
+#derby db
+lift_example
+
+# eclipse conf file
+.settings
+.classpath
+.project
+.cproject
+.manager
+
+# building
+target
+build
+null
+tmp*
+temp*
+dist
+test-output
+
+# C, Cpp
+*.o
+
+# Java
+*.class
+
+# other scm
+.svn
+.CVS
+.hg*
+
+
+# use regexp syntax
+syntax: regexp
+#^\.pc/
